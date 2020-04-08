@@ -1,0 +1,10 @@
+.menubar {
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.toplinks {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
