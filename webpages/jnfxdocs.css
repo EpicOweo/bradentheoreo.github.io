@@ -1,0 +1,15 @@
+.code {
+	font-family: monospace;
+	font-size: 16px;
+}
+code, .code {
+	background-color: #cccccc;
+}
+#border {
+	display: inline-block;
+	border: solid black 1px;
+}
+#border#border {
+	padding: 0px 30px 0px 30px;
+	border-spacing: 10px;
+}

@@ -3,25 +3,8 @@
     <head>
         <title>JnFX Documentation</title>
         <meta charset="utf-8">
-		<style>
-			.class {
-				text-indent: 20px;
-			}
-			.classdesc {
-				text-indent: 40px;
-			}
-			.classhead {
-				text-indent: 40px;
-			}
-			.code {
-				font-family: monospace;
-				text-indent: 60px;
-			}
-			.desc {
-				text-indent: 80px;
-			}
-		</style>
 	   <link rel="stylesheet" type="text/css" href="./../style.css">
+	   <link rel="stylesheet" type="text/css" href="./jnfxdocs.css">
     </head>
     <body>
         <div class="wrapper">
@@ -50,47 +33,91 @@
                     </li>
                 </ul>
             </div>
-            <div class="classes">
-                <h2 id="classes">Classes</h2>
-                <div id="lib">
-                    <h3 class="class" id="jnfx">epicoweo.jnfx.lib.JnFX</h3>
-                    <p class="classdesc">The main class for JnFX, implementing any of the library's code requires an instance of this class</p>
-                    <h4 class="classhead">Constructor</h4>
+			<div id="border">
+				<div class="classes">
+					<h2 id="classes">Classes</h2>
+						<div id="border">
+							<h3 class="class" id="jnfx">epicoweo.jnfx.lib.JnFX</h3>
+							<p class="classdesc">The main class for JnFX, implementing any of the library's code requires an instance of this class</p>
+								<div id="border">
+								<h4 class="classhead">Constructor</h4>
+								</div><br><br>
+						<div id="border">
 						<p class="code">public JnFX()</code>
+						</div><br><br>
+					<div id="border">
 					<h4 class="classhead">Globals</h4>
+						<div id="border">
 						<p class="code">public HashMap<String, LoadedFile> loadedFiles</code>
 							<p class="desc">A HashMap containing each LoadedFile created by JnFX.</p>
+						</div><br><br>
+					</div><br><br>
+					<div id="border">
                     <h4 class="classhead">Methods</h4>
+						<div id="border">
 						<p class="code">public void createFile(String path)</code>
 							<p class="desc">Creates a directory at the given path.</p>
+						</div><br><br>
+						<div id="border">
 						<p class="code">public void createFile(String path, boolean loadFile, String name) throws FileNotFoundException</code>
 							<p class="desc">Creates a directory at the given path. If loadFile is true, then it additionally loads the file with JnFX using <code>JnFX.loadFile(name)</code>.</p>
+						</div><br><br>
+						<div id="border">
 						<p class="code">public void deleteFile(File file) throws FileNotFoundException</code>
 							<p class="desc">Deletes a given file or directory.</p>
+						</div><br><br>
+						<div id="border">
 						<p class="code">public LoadedFile getFile(String name)</code>
 							<p class="desc">Returns the LoadedFile object from the <code>loadedFiles</code> HashMap with the given name.</p>
+						</div><br><br>
+						<div id="border">
 						<p class="code">public void renameFile(File file, String name)</code>
 							<p class="desc">Renames the given file with to the given name.</p>
-                    <h3 class="class" id="loadedfile">epicoweo.jnfx.lib.LoadedFile extends File</h3>
-                    <h4 class="classhead">Constructor</h4>
+						</div><br><br>
+					<div id="border">
+					<h3 class="class" id="loadedfile">epicoweo.jnfx.lib.LoadedFile extends File</h3>
+                    <div id="border">
+					<h4 class="classhead">Constructor</h4>
+						<div id="border">
 						<p class="code">public LoadedFile(String name, String path) throws FileNotFoundException</code>
+						</div><br><br>
+					</div><br><br>
+					<div id="border">
 					<h4 class="classhead">Globals</h4>
+						<div id="border">
 						<p class="code">private static final long serialVersionUID = 1L</code>
 							<p class="desc">Serial version UID.</p>
+						</div><br><br>
+						<div id="border">
 						<p class="code">private final String path</code>
 							<p class="desc">The path of the file.</p>
+						</div><br><br>
+						<div id="border">
 						<p class="code">private final String name</code>
 							<p class="desc">The name of the file in the JnFX.loadedFiles HashMap.</p>
+						</div><br><br>
+						<div id="border">
 						<p class="code">private final boolean isEmpty</code>
 							<p class="desc">True if the directory is empty.</p>
+						</div><br><br>
+					</div><br><br>
+					<div id="border">
 					<h4 class="classhead">Methods</h4>
+						<div id="border">
 						<p class="code">public String getPath()</code>
 							<p class="desc">Returns this.path.</p>
+						</div><br><br>
+						<div id="border">
 						<p class="code">public String getName()</code>
 							<p class="desc">Returns this.name.</p>
+						</div><br><br>
+						<div id="border">
 						<p class="code">public boolean isEmpty()</code>
 							<p class="desc">Returns this.isEmpty.</p>
-                </div>
+						</div><br><br>
+					</div><br><br>
+					</div><br><br>
+                </div><br><br>
             </div>
         </div>
     </body>
